@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
+
+    "editor.lineNumbers": "relative",
+
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": [""], "commands": ["Ctrl", "l"] },
+        { "before": ["<S-j>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+        { "before": ["Ctrl", "d"], "commands": ["Ctrl", "d", "z", "z"] },
+
+        { "before": ["leader", "p"], "commands": ["workbench.action.quickOpen"]},
+        { "before": ["leader", "n"], "commands": ["workbench.explorer.fileView"]},
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        }, 
+     ],
+    "window.zoomLevel": 2,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.activityBar.location": "hidden",
+}
