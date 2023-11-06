@@ -1,5 +1,5 @@
 # My Vim Motions for VS Code
-For that blazingly fast smooth coconut oil experience in your IDE, here are some keybindings to integrate into your vs code settings.
+For that blazingly fast and smooth coconut oil experience in your IDE, here are some keybindings to integrate into your vs code settings.
 
 ## Usage
 First, install the "Vim" Extension by vscodevim, which is a Vim emulation for Visual Studio Code.
